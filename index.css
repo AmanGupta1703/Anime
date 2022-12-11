@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    padding: 4em 0;
+}
+
+h3, 
+p {
+    margin: 0;
+}
+
+body,
+.card,
+.card-wrapper {
+    display: flex;
+}
+
+body,
+.card {
+    flex-direction: column;
+}
+
+input[type="text"],
+.card,
+button {
+    border-radius: 10px;
+}
+
+.anime-title
+.release-date {
+    margin: 0;
+}
+
+/***** FORM *****/
+label {
+    font-size: 1.5rem;
+}
+
+input[type="text"] {
+    margin-top: .8em;
+    width: 320px;
+    padding: .9em 1em;
+    border: 1px solid gray;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    padding: .6em 2em;
+}
+/***** End FORM *****/
+
+/***** CARD *****/
+.card-wrapper {
+    margin-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 8em;
+}
+
+.card {
+    border: 2px solid;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+.card-body {
+    padding: .9em 1em;
+}
+
+.anime-title {
+    font-size: .9rem;
+}
+
+.release-date {
+    font-size: .8rem;
+}
+
+.release-date {
+    margin-top: .5em;
+}
+
+img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardw:hover {
+    transform: scale(1.1);
+}
+
+/***** End CARD *****/
