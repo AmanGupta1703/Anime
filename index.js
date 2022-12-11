@@ -29,7 +29,7 @@ function render(data) {
             </div>
         </div>
     `
-  }).join(' ')w;
+  }).join(' ');
   console.log(html)
   console.log(data)
   document.getElementById('card-wrapper').innerHTML = getAnimeCardHtml
